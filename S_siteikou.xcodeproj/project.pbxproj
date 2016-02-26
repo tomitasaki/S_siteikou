@@ -14,6 +14,7 @@
 		BA4E2DA71C7EDFD50025A0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E2DA51C7EDFD50025A0EF /* LaunchScreen.storyboard */; };
 		BA4E2DB21C7EDFD50025A0EF /* S_siteikouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DB11C7EDFD50025A0EF /* S_siteikouTests.swift */; };
 		BA4E2DBD1C7EDFD50025A0EF /* S_siteikouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DBC1C7EDFD50025A0EF /* S_siteikouUITests.swift */; };
+		BA4E2DCC1C7F0D440025A0EF /* pucathuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA4E2DB81C7EDFD50025A0EF /* S_siteikouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S_siteikouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4E2DBC1C7EDFD50025A0EF /* S_siteikouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_siteikouUITests.swift; sourceTree = "<group>"; };
 		BA4E2DBE1C7EDFD50025A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pucathuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BA4E2D901C7EDFD50025A0EF = {
 			isa = PBXGroup;
 			children = (
+				BA4E2DCA1C7F0D1D0025A0EF /* New Group */,
 				BA4E2D9B1C7EDFD50025A0EF /* S_siteikou */,
 				BA4E2DB01C7EDFD50025A0EF /* S_siteikouTests */,
 				BA4E2DBB1C7EDFD50025A0EF /* S_siteikouUITests */,
@@ -99,6 +102,7 @@
 			children = (
 				BA4E2D9C1C7EDFD50025A0EF /* AppDelegate.swift */,
 				BA4E2D9E1C7EDFD50025A0EF /* ViewController.swift */,
+				BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */,
 				BA4E2DA01C7EDFD50025A0EF /* Main.storyboard */,
 				BA4E2DA31C7EDFD50025A0EF /* Assets.xcassets */,
 				BA4E2DA51C7EDFD50025A0EF /* LaunchScreen.storyboard */,
@@ -123,6 +127,13 @@
 				BA4E2DBE1C7EDFD50025A0EF /* Info.plist */,
 			);
 			path = S_siteikouUITests;
+			sourceTree = "<group>";
+		};
+		BA4E2DCA1C7F0D1D0025A0EF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +204,6 @@
 				TargetAttributes = {
 					BA4E2D981C7EDFD50025A0EF = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = PFB74RZH59;
 					};
 					BA4E2DAC1C7EDFD50025A0EF = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -261,6 +271,7 @@
 			files = (
 				BA4E2D9F1C7EDFD50025A0EF /* ViewController.swift in Sources */,
 				BA4E2D9D1C7EDFD50025A0EF /* AppDelegate.swift in Sources */,
+				BA4E2DCC1C7F0D440025A0EF /* pucathuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = S_siteikou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.S-siteikou";
@@ -411,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = S_siteikou/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "hmlab-book-pro.S-siteikou";
