@@ -208,7 +208,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tLs-Rx-p6q" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="604" y="-285"/>
+            <point key="canvasLocation" x="534" y="-285"/>
         </scene>
         <!--点数更新-->
         <scene sceneID="rZ1-pN-5zr">
@@ -513,74 +513,19 @@
         <scene sceneID="z36-Sq-Shz">
             <objects>
                 <viewController id="iem-3y-ZAT" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="2iU-gX-p53"/>
-                        <viewControllerLayoutGuide type="bottom" id="7Xy-Bg-acs"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wdW-D1-qvM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3H-Tf-SrC">
-                                <rect key="frame" x="138" y="96" width="45" height="30"/>
-                                <state key="normal" title="１学期"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cjT-ck-5Ab">
-                                <rect key="frame" x="138" y="207" width="45" height="30"/>
-                                <state key="normal" title="２学期"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rgX-us-nbd">
-                                <rect key="frame" x="138" y="330" width="45" height="30"/>
-                                <state key="normal" title="３学期"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <segue destination="0fi-BA-x61" kind="presentation" id="YKK-W5-0wO"/>
+                        <segue destination="itw-Pz-QkT" kind="show" id="254-ol-Q0K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K2g-Zs-9hZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="557" y="-953"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Sc6-3F-HJe">
-            <objects>
-                <viewController id="0fi-BA-x61" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="adA-n5-Qlb"/>
-                        <viewControllerLayoutGuide type="bottom" id="Aen-dk-S9a"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kEA-c8-dF9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="niv-gY-b2v">
-                                <rect key="frame" x="145" y="99" width="30" height="30"/>
-                                <state key="normal" title="中間"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a6-y6-VDD">
-                                <rect key="frame" x="145" y="209" width="30" height="30"/>
-                                <state key="normal" title="期末"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <segue destination="itw-Pz-QkT" kind="presentation" id="xsx-LQ-XIN"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zsY-3i-pGa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1018" y="-953"/>
-        </scene>
-        <!--Collection View Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="cdd-iF-1aW">
             <objects>
-                <viewController id="bZi-PH-nkg" customClass="UICollectionViewController" sceneMemberID="viewController">
+                <viewController id="bZi-PH-nkg" customClass="PickerViewController" customModule="S_siteikou" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oMk-o8-7AE"/>
                         <viewControllerLayoutGuide type="bottom" id="mhB-68-nLX"/>
@@ -589,18 +534,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyl-ET-NZY">
-                                <rect key="frame" x="138" y="190" width="45" height="30"/>
-                                <state key="normal" title="２学期"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YNj-JQ-eBq">
-                                <rect key="frame" x="138" y="290" width="45" height="30"/>
-                                <state key="normal" title="３学期"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gSX-bR-Cm0">
-                                <rect key="frame" x="138" y="91" width="45" height="30"/>
-                                <state key="normal" title="１学期"/>
-                            </button>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m8d-2J-aPJ">
+                                <rect key="frame" x="0.0" y="147" width="320" height="216"/>
+                            </pickerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

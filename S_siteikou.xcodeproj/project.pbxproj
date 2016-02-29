@@ -14,7 +14,7 @@
 		BA4E2DA71C7EDFD50025A0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4E2DA51C7EDFD50025A0EF /* LaunchScreen.storyboard */; };
 		BA4E2DB21C7EDFD50025A0EF /* S_siteikouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DB11C7EDFD50025A0EF /* S_siteikouTests.swift */; };
 		BA4E2DBD1C7EDFD50025A0EF /* S_siteikouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DBC1C7EDFD50025A0EF /* S_siteikouUITests.swift */; };
-		BA4E2DCC1C7F0D440025A0EF /* pucathuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */; };
+		BA4E2DCC1C7F0D440025A0EF /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4E2DCB1C7F0D440025A0EF /* PickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		BA4E2DB81C7EDFD50025A0EF /* S_siteikouUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S_siteikouUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4E2DBC1C7EDFD50025A0EF /* S_siteikouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_siteikouUITests.swift; sourceTree = "<group>"; };
 		BA4E2DBE1C7EDFD50025A0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pucathuViewController.swift; sourceTree = "<group>"; };
+		BA4E2DCB1C7F0D440025A0EF /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +102,7 @@
 			children = (
 				BA4E2D9C1C7EDFD50025A0EF /* AppDelegate.swift */,
 				BA4E2D9E1C7EDFD50025A0EF /* ViewController.swift */,
-				BA4E2DCB1C7F0D440025A0EF /* pucathuViewController.swift */,
+				BA4E2DCB1C7F0D440025A0EF /* PickerViewController.swift */,
 				BA4E2DA01C7EDFD50025A0EF /* Main.storyboard */,
 				BA4E2DA31C7EDFD50025A0EF /* Assets.xcassets */,
 				BA4E2DA51C7EDFD50025A0EF /* LaunchScreen.storyboard */,
@@ -271,7 +271,7 @@
 			files = (
 				BA4E2D9F1C7EDFD50025A0EF /* ViewController.swift in Sources */,
 				BA4E2D9D1C7EDFD50025A0EF /* AppDelegate.swift in Sources */,
-				BA4E2DCC1C7F0D440025A0EF /* pucathuViewController.swift in Sources */,
+				BA4E2DCC1C7F0D440025A0EF /* PickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +498,7 @@
 				BA4E2DC31C7EDFD50025A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4E2DC41C7EDFD50025A0EF /* Build configuration list for PBXNativeTarget "S_siteikouTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				BA4E2DC61C7EDFD50025A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4E2DC71C7EDFD50025A0EF /* Build configuration list for PBXNativeTarget "S_siteikouUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				BA4E2DC91C7EDFD50025A0EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
